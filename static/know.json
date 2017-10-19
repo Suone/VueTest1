@@ -1,0 +1,34 @@
+[
+  {
+    "title": "position的absolute与fixed共同点与不同点",
+    "txt": "1.absolute和fixed的相同点，都会脱离文档流<br>2.不同点：absolute相对是第一个有定位的祖元素进行定位，fixed相对于浏览器进行定位。在有滚动条的页面中，absolute会跟着祖元素进行移动，fixed固定在页面的具体位置。"
+  },
+  {
+    "title": "显示display元素常见属性整理",
+    "txt": "常用的display属性值：none此元素不会被显示并且不占用空间；<br>block此元素显示为块级元素，此元素前后会带有换行符；<br>inline默认，此元素会被显示为内联元素，元素前后没有换行符；<br>inline-block行内块元素，前后无换行符；inherit规定应该从父类元素继承display属性的"
+  },
+  {
+    "title": "CSS中的各种居中方法总结",
+    "txt": "CSS中的居中可分为水平居中和垂直居中。水平居中分为行内元素居中和块状元素居中两种情况，而块状元素又分为定宽块状元素居中和不定宽块状元素居中。下面详细介绍这几种情况。<br>行内元素居中是只针对行内元素的，比如文本（text）、图片（img）、按钮等行内元素，可通过给父元素设置 text-align:center 来实现。<br> 满足定宽（块状元素的宽度width为固定值）和块状两个条件的元素可以通过设置“左右margin”值为“auto”来实现居中。<br>通过给父元素设置 float，然后给父元素设置 position:relative 和 left:50%，子元素设置 position:relative 和 left: -50% 来实现水平居中。"
+  },
+  {
+    "title": "列举一些行内元素、块状元素 空元素",
+    "txt": "行内元素：a、b、span、img、input、strong、select、label、em、button、textarea<br>块级元素：div、ul、li、dl、dt、dd、p、h1-h6、blockquote<br>空元素:br、meta、hr、link、input、img"
+  },
+  {
+    "title": "原型知识点",
+    "txt": "var a={}其实是var a=new Object()的语法糖<br>var a=[]其实是var a=new Array()的语法糖<br>function Foo(){}其实是var Foo=new Function()<br>instanceof用于判断引用类型属于哪个构造函数的方法<br>f instanceof Foo //判断f这个引用类型是否属于Foo构造函数，判断逻辑:f的_proto_一层一层往上，能否对应到Foo.prototype"
+  },
+  {
+    "title": "AJAX运行步骤与状态值说明",
+    "txt": "在AJAX实际运行当中，对于访问XMLHttpRequest（XHR）时并不是一次完成的，而是分别经历了多种状态后取得的结果，对于这种状态在AJAX中共有5种，分别是。<br>0 - (未初始化)还没有调用send()方法<br>1 - (载入)已调用send()方法，正在发送请求<br>2 - (载入完成)send()方法执行完成，<br>3 - (交互)正在解析响应内容<br>4 - (完成)响应内容解析完成，可以在客户端调用了"
+  },
+  {
+    "title": "移动端适配简易步骤",
+    "txt": " width：viewport 的宽度，可以指定为一个像素值，如：640，或者为特殊的值，如：device-width （设备的宽度）。<br>initial-scale：初始缩放比例，即当浏览器第一次加载页面时的缩放比例。值为 1.0 即原始尺寸。<br>maximum-scale：允许浏览者缩放到的最大比例，一般设为1.0，即原始尺寸。<br>minimum-scale：允许浏览者缩放到的最小比例，一般设为1.0，即原始尺寸。<br>user-scalable：浏览者是否可以手动缩放，yes 或 no 。"
+  },
+  {
+    "title": "<meta>定义和用法",
+    "txt": "<meta> 元素可提供有关页面的元信息（meta-information），比如针对搜索引擎和更新频度的描述和关键词。<br><meta> 标签位于文档的头部，不包含任何内容。<meta> 标签的属性定义了与文档相关联的名称/值对。"
+  }
+]

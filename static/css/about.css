@@ -1,0 +1,47 @@
+#aboutMe {
+  width: 25rem;
+  height: 6.66666667rem;
+}
+#aboutMe img {
+  display: block;
+  width: 25rem;
+  height: 6.66666667rem;
+}
+#my {
+  width: 25rem;
+  padding: 1.33333333rem 0.66666667rem 2rem 0.83333333rem;
+  box-sizing: border-box;
+  text-align: center;
+}
+#my h2 {
+  font-size: 1.13333333rem;
+  line-height: 1.4rem;
+  color: #333333;
+  text-align: center;
+  margin-bottom: 0.26666667rem;
+}
+#my .En-write {
+  font-size: 0.53333333rem;
+  line-height: 0.73333333rem;
+  color: #333333;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+#my .text {
+  font-size: 0.66666667rem;
+  line-height: 1.2rem;
+  color: #333;
+  padding-bottom: 1.66666667rem;
+}
+.tel,
+.QQ,
+.code p {
+  font-size: 1.13333333rem;
+  line-height: 1.4rem;
+  color: #333333;
+  text-align: center;
+  margin-bottom: 0.26666667rem;
+}
+.code img {
+  width: 90%;
+}

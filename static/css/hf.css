@@ -1,0 +1,76 @@
+html,
+body {
+  position: fixed;
+  height: 100%;
+  width:100%;
+}
+/*#header {*/
+  /*width: 25rem;*/
+  /*height: 3rem;*/
+  /*line-height: 3rem;*/
+  /*text-align: center;*/
+  /*background: #c11920;*/
+/*}*/
+/*#header img {*/
+  /*width: 25rem;*/
+  /*height:3rem;*/
+  /*display: inline-block;*/
+/*}*/
+#footer{
+  width: 25rem;
+  height: 3.26666667rem;
+  background: #453B3A;
+  position: fixed;
+  bottom: 0;
+
+}
+#footer ul{
+  display: flex;
+}
+#footer li {
+  flex: 1;
+  height: 3.26666667rem;
+  text-align: center;
+  box-sizing: border-box;
+}
+#footer li a {
+  display: block;
+  color: #fff;
+}
+#footer li a .icon {
+  margin: 0 auto;
+  width: 2.16666667rem;
+  height: 2rem;
+}
+#footer li a .icon img{
+  display: inline-block;
+  text-align: center;
+  margin-top: 0.5rem;
+  width: 1.5rem;
+  height: 1.5rem;
+}
+#footer li a span {
+  line-height: 0.86666667rem;
+}
+.mint-msgbox-wrapper .mint-msgbox {
+  width: 20.16666667rem;
+  height: 14.5rem;
+  padding: 3.33333333rem 1.66666667rem 0;
+  border-radius: 0.66666667rem;
+  box-sizing: border-box;
+}
+.mint-msgbox-wrapper .mint-msgbox .mint-msgbox-content {
+  font-size: 1.8rem;
+  color: #333;
+  margin-bottom: 2rem;
+  border: none;
+}
+.mint-msgbox-wrapper .mint-msgbox .mint-msgbox-btns .mint-msgbox-confirm {
+  width: 15rem;
+  height: 3.33333333rem;
+  border-radius: 0.66666667rem;
+  color: #fff;
+  background: #C11920;
+  border: none;
+  outline: none;
+}
